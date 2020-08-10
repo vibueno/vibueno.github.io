@@ -1,0 +1,137 @@
+/*
+ *
+ * Sizes in this stylesheet are optimized for mini smarphones.
+ * We use the file responsive.css to build up on this and
+ * make the page look good on bigger devices too
+ *
+ */
+
+* {
+  box-sizing: border-box;
+  --color-1: #303841;
+  --color-2: #00858a;
+  --color-3: #eee;
+  --color-4: #ff5722;
+}
+
+body {
+  grid-template-columns: 1fr;
+  margin: auto;
+  padding: 0 5vw;
+  max-width: 1500px;
+  background-color: var(--color-3);
+  color: var(--color-1);
+}
+
+header {
+  justify-content: center;
+  grid-column: 1 / 5;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: var(--color-2);
+}
+
+h2 {
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+  font-size: 1.25em;
+  color: var(--color-2);
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.about-me {
+  grid-template-rows: 6em 240px 1fr;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
+.about-me-text {
+  grid-row: 3 / 3;
+  font-size: 1.1em;
+}
+
+.about-me-text p {
+  text-align: center;
+}
+
+.about-me-pic-container {
+  justify-content: center;
+  grid-row: 2 / 2;
+}
+
+.about-me-pic {
+  justify-self: center;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid var(--color-2);
+  border-radius: 50%;
+}
+
+.skills {
+  grid-column: 1 / 5;
+}
+
+.skill-list {
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.skill-item {
+  margin: 1.25em;
+}
+
+.projects {
+  grid-column: 1 / 5;
+}
+
+.project-list {
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.project-item {
+  justify-content: center;
+  margin: 1em;
+  min-width: 100px;
+  max-width: 250px;
+  min-height: 250px;
+  max-height: 300px;
+  border: 1px solid var(--color-2);
+  font-size: 1.2em;
+}
+
+.project-item:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 0px 10px 4px var(--color-2);
+  -moz-box-shadow: 0px 0px 10px 4px var(--color-2);
+  box-shadow: 0px 0px 10px 4px var(--color-2);
+}
+
+.project-item img {
+  width: 100%;
+}
+
+.project-item-text {
+  padding: 1em;
+  text-align: center;
+}
