@@ -12,7 +12,8 @@
   h2 {
     font-size: 1.5em;
   }
-  .skill-item {
+  .skill-item,
+  .interest-item {
     margin: 1.5em 3em;
   }
 }
@@ -55,16 +56,8 @@
     align-items: flex-start;
   }
 
-  .project-list {
-    grid-column: 1 / 5;
-  }
-
   .project-item {
     margin: 1.5em 2em;
-  }
-
-  .skill-list {
-    grid-column: 1 / 5;
   }
 }
 
