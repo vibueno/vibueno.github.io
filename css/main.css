@@ -10,6 +10,7 @@
   box-sizing: border-box;
   --dark-grey: #303841;
   --light-green: #00858a;
+  --grey: #ddd;
   --light-grey: #eee;
   --green: #164347;
   --yellow: #ffdc48;
@@ -145,6 +146,7 @@ a:link {
   max-height: 300px;
   border: 1px solid var(--green);
   border-radius: 5px;
+  background-color: var(--grey);
   font-size: 1.2em;
 }
 
