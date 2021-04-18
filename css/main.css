@@ -109,6 +109,21 @@ a:link {
   color: var(--green);
 }
 
+.skill-item-icon-img {
+  width: 4em;
+  height: 4em;
+}
+
+#skill-item-icon-jquery {
+  background: url('../img/skills/jquery.png  ') no-repeat;
+  background-size: contain;
+}
+
+#skill-item-icon-jquery:hover {
+  background: url('../img/skills/jquery-hover.png  ') no-repeat;
+  background-size: contain;
+}
+
 .skill-item-icon:hover,
 .interest-item-icon:hover {
   color: var(--yellow);
