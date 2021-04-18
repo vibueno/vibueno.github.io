@@ -147,7 +147,7 @@ a:link {
   border: 1px solid var(--green);
   border-radius: 5px;
   background-color: var(--grey);
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .project-item:hover {
