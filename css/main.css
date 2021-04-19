@@ -78,11 +78,17 @@ a:link {
 
 .about-me-pic {
   justify-self: center;
+  transition: all 1s ease-in-out;
   width: 100%;
   max-width: 200px;
   height: auto;
   border: 2px solid var(--light-green);
   border-radius: 50%;
+}
+
+.about-me-pic:hover {
+  transform: rotate(360deg);
+  transition: all 1s ease-in-out;
 }
 
 .skills,
@@ -116,12 +122,12 @@ a:link {
 }
 
 #skill-item-icon-jquery {
-  background: url('../img/skills/jquery.png  ') no-repeat;
+  background: url('../img/skills/jquery.png') no-repeat;
   background-size: contain;
 }
 
 #skill-item-icon-jquery:hover {
-  background: url('../img/skills/jquery-hover.png  ') no-repeat;
+  background: url('../img/skills/jquery-hover.png') no-repeat;
   background-size: contain;
 }
 
