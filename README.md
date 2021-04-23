@@ -7,15 +7,11 @@
 - [Design](#design)
 - [Programming](#programming)
 - [Libraries](#libraries)
-- [Usage](#usage)
-- [Improvements](#improvements)
-- [Issues](#issues)
 - [Tests](#tests)
-- [Credits](#credits)
 
 ## Description
 
-This project has been created during the bootcamp at WBS Coding School.
+This project was developed during the _Full-Stack Web & App Development_ training at [WBS Coding School](https://www.wbscodingschool.com/).
 
 ## Live
 
@@ -46,15 +42,7 @@ For a live version of my portfolio, visit [GitHub Pages](https://vibueno.github.
 
 No libraries have been used for this project. Only vanilla JS.
 
-## Usage
-
-## Improvements
-
-## Issues
-
 ## Tests
 
 - Desktop computer + Developer Tools
 - Uniherz Jelly Pro
-
-## Credits
